@@ -1,11 +1,27 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif;
   line-height: 1.4;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* .container {
+  background-color: red;
+} */
+
+.product-img {
+  float: left;
+  margin-right: 40px;
 }
 
 /* PRODUCT */
@@ -24,8 +40,17 @@ body {
   padding: 15px;
 }
 
+/* PROJECT INFORMATION */
+.product-info {
+  width: 243px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
 .price {
   font-size: 24px;
+  float: left;
 }
 
 .shipping {
@@ -34,6 +59,7 @@ body {
   font-weight: bold;
   color: #777;
   margin-bottom: 20px;
+  float: right;
 }
 
 .sale {
@@ -48,6 +74,11 @@ body {
   position: absolute;
   top: -18px;
   left: -38px;
+}
+
+.product-description {
+  clear: both;
+  margin-bottom: 10px;
 }
 
 .more-info:link,
@@ -90,11 +121,16 @@ body {
 }
 
 /* PRODUCT DETAILS */
+.product-details {
+  width: 243px;
+  float: left;
+  margin-top: 20px;
+}
+
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
   margin-bottom: 15px;
-  margin-top: 30px;
 }
 
 .details-list {
