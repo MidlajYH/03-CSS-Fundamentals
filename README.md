@@ -1,3 +1,1 @@
-# 03-CSS-Fundamentals
-
-HTML Course from Jonas Schmedtmann
+HTML & CSS Course from Jonas Schmedtmann
